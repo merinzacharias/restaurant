@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Poppins */
+@font-face{
+    font-family: "Poppins-Regular";
+    src: local("Poppins-Regular"),
+    url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+.Poppins-Regular{
+    font-family: "Poppins-Regular";
+}
+
+@font-face{
+    font-family: "Poppins-SemiBold";
+    src: local("Poppins-SemiBold"),
+    url("./assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+.Poppins-SemiBold{
+    font-family: "Poppins-SemiBold";
+}
+
+@font-face{
+    font-family: "Poppins-Bold";
+    src: local("Poppins-Bold"),
+    url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+.Poppins-Bold{
+    font-family: "Poppins-Bold";
+}
+
+@font-face{
+    font-family: "Poppins-Medium";
+    src: local("Poppins-Medium"),
+    url("./assets/fonts/Poppins-Medium.ttf") format("truetype");
+}
+.Poppins-Medium{
+    font-family: "Poppins-Medium";
+}
+
+/* Inter */
+@font-face{
+    font-family: "Inter-Regular";
+    src: local("Inter-Regular"),
+    url("./assets/fonts/Inter-Regular.otf") format("truetype");
+}
+.Inter-Regular{
+    font-family: "Inter-Regular";
+}
+
+@font-face{
+    font-family: "Inter-SemiBold";
+    src: local("Inter-SemiBold"),
+    url("./assets/fonts/Inter-SemiBold.otf") format("truetype");
+}
+.Inter-SemiBold{
+    font-family: "Inter-SemiBold";
+}
+
+@font-face{
+    font-family: "Inter-Bold";
+    src: local("Inter-Bold"),
+    url("./assets/fonts/Inter-Bold.otf") format("truetype");
+}
+.Inter-Bold{
+    font-family: "Inter-Bold";
+}
+
+@font-face{
+    font-family: "Inter-Medium";
+    src: local("Inter-Medium"),
+    url("./assets/fonts/Inter-Medium.otf") format("truetype");
+}
+.Inter-Medium{
+    font-family: "Inter-Medium";
+}
