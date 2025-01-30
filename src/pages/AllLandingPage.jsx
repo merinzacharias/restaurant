@@ -11,7 +11,7 @@ const AllLandingPage = () => {
       <HeroSection />
       <AboutSection />
       <Foodmenu />
-      <BlogSection />
+      <BlogSection /> 
       <Footer />
       
     </div>
