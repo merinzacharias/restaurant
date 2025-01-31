@@ -26,16 +26,16 @@ const Team = [
 
 const About_Team = () => {
   return (
-    <div className='mt-20 flex flex-col justify-between gap-20 items-center relative h-auto p-5'>
+    <div className='mt-8 xl:mt-20 flex flex-col justify-between gap-5  items-center relative h-auto p-5'>
     <img src={orange} alt='orange-image' className='h-35 sm:h-40 md:h-40 lg:60 xl:h-70  left-0 scale-x-[-1] absolute bottom-0' />
     <h3 className='text-[#FB8A22] text-[18px] Inter-SemiBold'>Meet Our Team</h3>
-    <div className='flex justify-between gap-50 items-center'>
+    <div className='flex flex-col md:flex-row justify-between gap-0 md:gap-15 xl:gap-50 items-center'>
 
       {Team.map((item) => (
-        <div key={item.id} className='flex flex-col  justify-between  items-center w-[100%]  lg:w-[55%] py-15 px-8'>
-          <img src={item.image} alt='chef-pic' className='h-15 md:h-60 w-auto ' />
+        <div key={item.id} className='flex flex-col  justify-between  items-center w-[100%]  md:w-[55%] py-10 px-2 lg:py-15 lg:px-8'>
+          <img src={item.image} alt='chef-pic' className='h-40 lg:h-60 w-auto ' />
           <div className='flex flex-col justify-between items-center'>
-            <h3 className='pt-5 Inter-Medium text-center text-[18px] md:text-[18px] lg:text-[20px]'>{item.name}</h3>
+            <h3 className='pt-5 Inter-Medium text-center text-[15px] lg:text-[20px]'>{item.name}</h3>
           </div>
         </div>
       ))}

@@ -44,19 +44,13 @@ const Navbar = () => {
               <p className='text-[13px] text-white'>4</p>
             </div>
             <img src={cart} alt='cart-icon' className='h-6 ' />
-
           </div>
         </div>
-
         <div className='lg:hidden flex flex-col gap-1'>
           <div className='border w-9 '></div>
           <div className='border w-9 '></div>
           <div className='border w-9 '></div>
         </div>
-
-
-
-
       </div>
     </header>
 

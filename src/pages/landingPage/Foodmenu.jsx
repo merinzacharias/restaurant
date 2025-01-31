@@ -44,7 +44,7 @@ const foodItems = [
 const Foodmenu = () => {
   return (
     <section className='relative pt-5 md:pt-10 lg:pt-20 pb-10 mt-10 md:mt-15 lg:mt-20 bg-[#F6F7FF]'>
-    <div className='flex flex-col justify-center items-center  gap-5 lg:gap-25'>
+    <div className='flex flex-col justify-center items-center gap-5 lg:gap-25'>
       <div>
         <h3 className='Inter-Bold text-[23px] lg:text-[35px] py-8 md:py-0'>Our Popular Food Menu</h3>
       </div>
@@ -52,7 +52,7 @@ const Foodmenu = () => {
         <div className='flex  justify-between overflow-x-scroll px-10 no-scrollbar w-screen  xl:w-[1280px]  items-center gap-5 lg:gap-15  pt-20 pb-15 '>
 
           {foodItems.map((item) => (
-            <div key={item.id} className="flex justify-center   items-center w-[80%] md:w-[50%] lg:w-[40%] relative">
+            <div key={item.id} className="flex justify-center items-center w-[80%] md:w-[50%] lg:w-[40%] relative">
               <div className="w-40 h-55 md:w-60 md:h-80 lg:w-64 lg:h-80  rounded-[30px] md:rounded-[45px] bg-white p-2 shadow-2xl flex flex-col gap-5 pb-25 justify-center items-center">
                 <div>
                   <img

@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import './App.css'
 import AllLandingPage from './pages/AllLandingPage'
 import About from './pages/routingPages/About'
 import Navbar from './components/Navbar'
 import Product from './pages/routingPages/Product'
 import Contact from './pages/routingPages/Contact'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
       <Route path='/product' element={<Product/>} />
       <Route path='/contact' element={<Contact/>} />
     </Routes>
+    <Footer />
     </BrowserRouter>
       
     </>

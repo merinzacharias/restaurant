@@ -5,20 +5,22 @@ import chickenfry from "../../assets/chicken_fry.png"
 import orange from "../../assets/orange image 1.png"
 import pasta from "../../assets/pasta2.png"
 
-
-
+import { Link } from "react-router-dom"
 
 
 const HeroSection = () => {
   return (
-     <section className='relative pt-8 sm:pt-10 md:pt-12 lg:pt:14 xl:pt-16'>
+     <section className='relative pt-8 sm:pt-10 md:pt-12 lg:pt:14 xl:pt-16 flex justify-center items-center'>
             <img src={orange} alt='orange-image' className='h-35 sm:h-40 md:h-40 lg:60 xl:h-70 right-0 absolute top-0' />
+            <div className=''>
             <div className='flex flex-col md:flex-row items-start xl:items-center md:gap-1 lg:gap-10 xl:gap-15'>
-              <div className='ml-4 sm:ml-8 md:ml-16 xl:ml-38 w-[85%] md:w-[75%] lg:w-[60%] xl:w-[73%] '>
+              <div className='ml-4 sm:ml-8 md:ml-16 xl:ml-30 w-[85%] md:w-[75%] lg:w-[60%] xl:w-[73%] '>
                 <button className='bg-[#FAE8DC] text-[#FB8A22] px-2 py-1 md:px-2 md:py-2 rounded-[5px] text-[14px] md:text-[15px] xl:text-[18px] Inter-Regular'>WELCOME TO OUR RESTAURANT</button>
-                <h1 className=' text-[30px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[71px] pb-5 xl:pb-10 Inter-SemiBold pt-3 xl:pt-0'>Delicious Foods For Every Occasion And Festival</h1>
+                <h1 className=' text-[30px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[66px] pb-5 xl:pb-10 Inter-SemiBold pt-3 xl:pt-0'>Delicious Foods For Every Occasion And Festival</h1>
                 <h1 className=' text-[16px]  md:text-[18px] lg:text-[18px] xl:text-[20px] text-[#646573] pb-6 Inter-Medium w-[90%]'>Delicious Foods For Every Occasion And Festival Delicious Foods For Every Occasion And Festival</h1>
-                <button className='bg-[#FB8A22] rounded-[37px] px-3 py-2 md:px-6 md:py-3  xl:px-8 xl:py-4 text-white text-[14px] md:text-[14px] lg:text-[18px] xl:text-[20px] Inter-SemiBold'>Order Now</button>
+                <Link to="/about">
+                  <button className='bg-[#FB8A22] rounded-[37px] px-3 py-2 md:px-6 md:py-3  xl:px-8 xl:py-4 text-white text-[14px] md:text-[14px] lg:text-[18px] xl:text-[20px] Inter-SemiBold'>Order Now</button>
+                </Link>
               </div>
     
               <div className='w-[60%] md:w-[65%] lg:w-[70%] relative md:h-[450px] lg:h-[550px] xl:h-[750px] hidden md:block'>
@@ -63,6 +65,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
+          </div>
           </section>
   )
 }
